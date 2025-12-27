@@ -14,19 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::KartConfig
   mass: 1200
   frictionCoefficient: 1
-  lateralStiffness: 3000
-  rollingResistance: 5
-  wheelRadius: 0.34
+  lateralStiffness: 15000
+  rollingResistance: 100
+  wheelRadius: 0.49
   suspensionRestLength: 0.5
+  suspensionTravel: 0.2
   springStiffness: 35000
-  damperStiffness: 4500
+  damperStiffness: 6000
+  frontAntiRoll: 8000
+  rearAntiRoll: 6000
   airDensity: 1.225
   frontalArea: 2.2
   dragCoefficient: 0.3
   wingArea: 1.8
   wingLiftCoefficient: 1.5
   groundEffectFactor: 80
-  maxGroundEffectDist: 0.2
+  maxGroundEffectDist: 1
   engineTorqueCurve:
     serializedVersion: 2
     m_Curve:
@@ -60,7 +63,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  engineInertia: 0.3
   maxRpm: 8000
   gearRatio: 8
   maxSteerAngle: 40
