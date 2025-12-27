@@ -25,7 +25,7 @@ MonoBehaviour:
   rearAntiRoll: 6000
   airDensity: 1.225
   frontalArea: 2.2
-  dragCoefficient: 0.3
+  dragCoefficient: 0.15
   wingArea: 1.8
   wingLiftCoefficient: 1.5
   groundEffectFactor: 80
@@ -44,7 +44,7 @@ MonoBehaviour:
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 5000
-      value: 500
+      value: 700
       inSlope: 0
       outSlope: 0
       tangentMode: 136
@@ -64,5 +64,5 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   maxRpm: 8000
-  gearRatio: 8
+  gearRatio: 7
   maxSteerAngle: 40
